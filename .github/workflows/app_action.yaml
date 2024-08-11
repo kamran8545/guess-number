@@ -22,7 +22,6 @@ jobs:
           architecture: x64
 
       - run: |
-          flutter --version
           flutter pub get
           flutter analyze
           flutter test
